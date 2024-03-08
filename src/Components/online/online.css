@@ -1,0 +1,31 @@
+
+
+.friendListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+.imgProfile{
+    position: relative;
+}
+
+.onlineCercle{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    border: 2px solid white;
+    top: -2px;
+    right: -2px;
+}
+.imgProfile>img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}

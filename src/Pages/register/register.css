@@ -1,0 +1,102 @@
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 238, 240);
+    height: 100vh;
+    width: 100vw;
+}
+
+.registerWrapper{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.registerLeft{
+    width: 300px;
+
+}
+
+h1{
+    color:#0866ff;
+    font-size: 44px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.registerRight{
+    background-color: rgb(243, 247, 247);
+    padding: 20px;
+    min-width: 350px;
+    max-width: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 11px 0px rgba(243, 239, 239, 0.75);
+    -webkit-box-shadow: 0px 2px 11px 0px rgba(228, 221, 221, 0.75);
+    -moz-box-shadow: 0px 2px 11px 0px rgba(230, 223, 223, 0.75);
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    align-items: center;
+
+}
+
+.registerInputs{
+    height: 45px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid gray;
+    outline: 0;
+    border-radius: 5px;
+
+    
+}
+
+.registerBtn{
+    height: 45px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid gray;
+    outline: 0;
+    border-radius: 5px;
+    background-color: #0866ff;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 350px;
+
+}
+
+.loginBtn{
+    height: 45px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid gray;
+    outline: 0;
+    border-radius: 5px;
+    background-color: rgb(17, 193, 17);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}

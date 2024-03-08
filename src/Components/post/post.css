@@ -1,0 +1,88 @@
+.post {
+    margin: 20px 0px;
+    width: 100%;
+    box-shadow: 0px 2px 11px 0px rgba(204, 200, 200, 0.75);
+    -webkit-box-shadow: 0px 2px 11px 0px rgba(193, 186, 186, 0.75);
+    -moz-box-shadow: 0px 2px 11px 0px rgba(199, 195, 195, 0.75);
+    border-radius: 5px;
+    
+
+}
+
+.postWrapper{
+    padding: 10px;
+}
+
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.postTopLeft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.postTopLeft>img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.postTopLeft>h6{
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(93, 94, 95);
+}
+
+.postTopLeft>span{
+color: rgb(154, 155, 155);
+font-size: 14px;
+
+}
+
+.postCenter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.postCenter>img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.postBottom{
+    margin: 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    
+}
+
+.postBottomLeft>span{
+    color: rgb(8, 8, 8);
+    font-size: 14px;
+    cursor: pointer;
+}
+.postBottomLeft>img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+.postBottomRight>span{
+    font-size: 14px;
+    border-bottom: 1px dashed gray;
+    cursor: pointer;
+}
